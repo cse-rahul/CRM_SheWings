@@ -1,0 +1,74 @@
+.attendance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #624c7a, #537abd);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  video {
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  .attendance-container button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #2575fc;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .attendance-container button:hover {
+    background-color: #2575fc;
+    color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .attendance-container img {
+    margin-top: 20px;
+    width: 320px;
+    height: 240px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  } */
+  
+  canvas {
+    display: none; /* Hidden as it's not directly visible to users */
+  }
+  
+  @media (max-width: 600px) {
+    .attendance-container {
+      padding: 10px;
+    }
+  
+    video,
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  }
+  
